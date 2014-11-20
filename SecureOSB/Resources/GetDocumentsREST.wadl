@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<application xmlns:soa="http://www.oracle.com/soa/rest" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://wadl.dev.java.net/2009/02">
+   <doc title="GetDocumentsREST">RestService</doc>
+   <grammars>
+      <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://xmlns.oracle.com/pcbpel/adapter/db/SecureOSBApp/SecureOSB/SecureDocuments" xmlns:jca="http://xmlns.oracle.com/pcbpel/wsdl/jca/" xmlns:plt="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:top="http://xmlns.oracle.com/pcbpel/adapter/db/top/SecureDocuments" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+        <import namespace="http://xmlns.oracle.com/pcbpel/adapter/db/top/SecureDocuments" schemaLocation="SecureDocuments_table.xsd"/>
+      </schema>
+   </grammars>
+   <resources>
+      <resource path="/">
+         <method name="GET" soa:wsdlOperation="SecureDocumentsSelect">
+            <request/>
+            <response status="200">
+               <representation mediaType="application/xml" element="cns:DocumentsCollection" xmlns:cns="http://xmlns.oracle.com/pcbpel/adapter/db/top/SecureDocuments"/>
+               <representation mediaType="application/json" element="cns:DocumentsCollection" xmlns:cns="http://xmlns.oracle.com/pcbpel/adapter/db/top/SecureDocuments"/>
+            </response>
+         </method>
+      </resource>
+   </resources>
+</application>

@@ -1,0 +1,14 @@
+<adapter-config name="SecureDocuments" adapter="db" wsdlLocation="SecureDocuments.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  
+  <connection-factory UIConnectionName="SECDEMO" location="eis/DB/sec_osb"/>
+  <endpoint-interaction portType="SecureDocuments_ptt" operation="SecureDocumentsSelect">
+    <interaction-spec className="oracle.tip.adapter.db.DBReadInteractionSpec">
+      <property name="DescriptorName" value="SecureDocuments.Documents"/>
+      <property name="QueryName" value="SecureDocumentsSelect"/>
+      <property name="MappingsMetaDataURL" value="SecureDocuments-or-mappings.xml"/>
+      <property name="ReturnSingleResultSet" value="false"/>
+      <property name="GetActiveUnitOfWork" value="false"/>
+    </interaction-spec>
+  </endpoint-interaction>
+
+</adapter-config>

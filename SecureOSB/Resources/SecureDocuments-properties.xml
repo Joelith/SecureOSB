@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <entry key="root_descriptor_alias">APP_SECDEMO_OWNER.DOCUMENTS</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DATE_CREATED:db_column_size">10</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_table_type">TABLE</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_8">OLS_COLUMN_SECDEMO</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_7">DOC_NAME</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_6">MIME</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_5">SENSITIVITY</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_4">DOC_SOURCE</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_3">DOC_CATEGORY</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_2">DATE_CREATED</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.MIME:db_column_type">VARCHAR2</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_1">AUTHOR</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.OLS_COLUMN_SECDEMO:db_column_precision">10</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS:db_column_0">DOC_NO</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_SOURCE:db_column_type">BLOB</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_NAME:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.SENSITIVITY:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DATE_CREATED:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.MIME:db_column_size">50</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.SENSITIVITY:db_column_type">VARCHAR2</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_SOURCE:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.MIME:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.AUTHOR:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.OLS_COLUMN_SECDEMO:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.OLS_COLUMN_SECDEMO:db_column_type">NUMBER</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_NO:db_column_type">VARCHAR2</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_CATEGORY:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_NO:db_column_not_null">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.SENSITIVITY:db_column_size">10</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_CATEGORY:db_column_type">VARCHAR2</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.AUTHOR:db_column_type">VARCHAR2</entry>
+   <entry key="return_single_result_set">false</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_NAME:db_column_type">VARCHAR2</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_NO:db_column_size">10</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.OLS_COLUMN_SECDEMO:db_column_scale">0</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_CATEGORY:db_column_size">10</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.AUTHOR:db_column_size">15</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DOC_NAME:db_column_size">50</entry>
+   <entry key="APP_SECDEMO_OWNER.DOCUMENTS.DATE_CREATED:db_column_type">VARCHAR2</entry>
+</properties>
